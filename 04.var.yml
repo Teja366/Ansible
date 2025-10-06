@@ -1,11 +1,11 @@
--name: play level variables
-hosts: local
-connections: local
-vars:
+- name: play level variables
+  hosts: local
+  connections: local
+  vars:
     COURSE: DevOps with AWS
     DURATION: 5months
     TRAINER: SivaKumar
-tasks:
-    -name: Print the course info
-    ansible.builtin.debug:
-      msg: "Course is: {{ COURSE }}, Duration: {{ DURATION }} which is trained by {{ TRAINER }}"
+  tasks:
+    - name: Print the course info
+      ansible.builtin.debug:
+        msg: "Course is: {{ COURSE }}, Duration: {{ DURATION }} which is trained by {{ TRAINER }}"
