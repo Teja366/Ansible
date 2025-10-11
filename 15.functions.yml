@@ -12,15 +12,15 @@
   #     - key: Environment
   #       value: dev
 
-  # tasks:
-  # - name: default variable
-  #   ansible.builtin.debug:
-  #     msg: "Hello, {{ name |#default('Teja') }}"
-
   tasks:
   - name: default variable
     ansible.builtin.debug:
-      msg: "Hello, {{ name }}"
+      msg: "Hello, {{ name | default('Teja') }}"
+
+  # tasks:
+  # - name: default variable
+  #   ansible.builtin.debug:
+  #     msg: "Hello, {{ name }}"
 
 # #string to list
 #   - name: convert string to list
