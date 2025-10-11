@@ -1,6 +1,6 @@
 - name: functions
   hosts: local
-  connections: local
+  connection: local
   tasks:
   - name: default variable
     ansible.builtin.debug:
