@@ -1,0 +1,42 @@
+- name: "Sai teja"
+  dob: "20-11-1998"
+  age: 27
+  addresses:
+    # Object
+  - doorNo: 603
+    street: "Vasanth Nagar"
+    city: Hyderabad
+    pin: 500085
+    type: current
+  
+  - doorNo: G4
+    street: "Mangamuru road"
+    city: Ongole
+    pin: 523001
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud
+
+- name: "Sudheer"
+  dob: "10-10-1998"
+  age: 27
+  addresses:
+    # Object
+  - doorNo: 603
+    street: "Vasanth Nagar"
+    city: Hyderabad
+    pin: 500085
+    type: current
+  
+  - doorNo: G4
+    street: "darsi"
+    city: darsi
+    pin: 523010
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud
+  - linux
