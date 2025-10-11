@@ -1,21 +1,21 @@
-- name: PLAY-01
+- name: Teja
   hosts: frontend
   tasks:
-  - name: PLAY-01 and TASK-01
+  - name: Teja and Sravani
     ansible.builtin.debug:
-      msg: "Hello from PLAY-01 and TASK-01"
+      msg: "Hello from Teja and Sravani"
 
-  - name: PLAY-01 and TASK-02
+  - name: Teja and Anila
     ansible.builtin.debug:
-      msg: "Hello from PLAY-01 and TASK-02"
+      msg: "Hello from Teja and Anila"
 
-- name: PLAY-02
+- name: Bhargavi
   hosts: frontend
   tasks:
-  - name: PLAY-02 and TASK-01
+  - name: Bhargavi and Sravani
     ansible.builtin.debug:
-      msg: "Hello from PLAY-02 and TASK-01"
+      msg: "Hello from Bhargavi and Sravani"
 
-  - name: PLAY-02 and TASK-02
+  - name: Bhargavi and Anila
     ansible.builtin.debug:
-      msg: "Hello from PLAY-02 and TASK-02"
+      msg: "Hello from Bhargavi and Anila"
