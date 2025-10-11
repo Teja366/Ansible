@@ -1,3 +1,16 @@
+# student-playbook.yml
+- name: Print student data
+  hosts: localhost
+  gather_facts: false
+  vars_files:
+    - students.yml
+
+  tasks:
+    - name: Print each student's name and skills
+      debug:
+        msg: "Name: {{ item.name }}, Skills: {{ item.skills }}"
+      loop: "{{ students }}"
+
 - name: "Sai teja"
   dob: "20-11-1998"
   age: 27
