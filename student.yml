@@ -1,3 +1,16 @@
+- name: loops
+  hosts: local
+  connection: local
+  become: yes
+  # vars_files:
+  #   - students.yml
+
+  # tasks:
+  #   - name: Print each student's name and skills
+  #     debug:
+  #       msg: "Name: {{ item.name }}, Skills: {{ item.skills }}"
+  #     loop: "{{ students }}"
+
 - name: "Sai teja"
   dob: "20-11-98"
   age: 27
