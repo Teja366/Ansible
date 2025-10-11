@@ -8,7 +8,7 @@
       Environment: dev
    listsTags:
       - key: Application
-        value: 'payment
+        value: payment
       - key: Environment
         value: dev
 
