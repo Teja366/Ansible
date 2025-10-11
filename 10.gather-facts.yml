@@ -1,0 +1,9 @@
+- name: gather facts
+  hosts: local
+  connection: local
+  vars:
+    number: 122
+  tasks:
+  - name: facts
+    ansible.builtin.debug:
+      msg: " {{ ansible_facks }} "
