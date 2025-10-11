@@ -1,16 +1,16 @@
 - name: functions
   hosts: local
   connection: local
-  vars:
-   technologies: DevOps, Linux, Shell, Ansible #string
-   tags:
-      Application: payment
-      Environment: dev
-   listsTags:
-      - key: Application
-        value: 'payment
-      - key: Environment
-        value: dev
+  # vars:
+  #  technologies: DevOps, Linux, Shell, Ansible #string
+  #  tags:
+  #     Application: payment
+  #     Environment: dev
+  #  listsTags:
+  #     - key: Application
+  #       value: 'payment
+  #     - key: Environment
+  #       value: dev
 
   # tasks:
   # - name: default variable
